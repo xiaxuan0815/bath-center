@@ -1,85 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c7577e-91fd-4559-b62e-b1074437b8fe" name="Default Changelist" comment="SpringCould整合">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/bath-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/ConsumerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/client/ArtificerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/client/ArtificerClientFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/controller/ArtificerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/controller/LevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/entity/Artificer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/entity/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/service/ArtificerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/service/LevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/service/impl/ArtificerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/service/impl/LevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/struct/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/struct/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/util/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/java/com/lihaiyang/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/config/PageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/controller/ArtificerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/controller/LevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/entity/Artificer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/entity/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/mapper/ArtificerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/mapper/LevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/service/ArtificerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/service/LevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/service/impl/ArtificerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/service/impl/LevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/struct/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/struct/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/util/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/java/com/lihaiyang/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/resources/mapper/ArtificerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-consumer/src/src/main/resources/mapper/LevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/bath-eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/src/main/java/com/lihaiyang/EurekaStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/src/main/resources/application-eureka8762.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/src/main/resources/application-eureka8763.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/src/main/resources/application-eureka8764.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-geteway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-geteway/src/main/java/com/lihaiyang/GetewayStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-geteway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/ServiceStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/config/PageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/controller/ArtificerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/controller/LevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/entity/Artificer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/entity/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/mapper/ArtificerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/mapper/LevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/service/ArtificerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/service/LevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/service/impl/ArtificerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/service/impl/LevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/struct/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/struct/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/util/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/java/com/lihaiyang/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/resources/application-service8081.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/resources/mapper/ArtificerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bath-service/src/main/resources/mapper/LevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f4c7577e-91fd-4559-b62e-b1074437b8fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -190,9 +113,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="973" />
-    <option name="height" value="1047" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -398,12 +322,20 @@
       <workItem from="1605054946004" duration="30000" />
       <workItem from="1605055874055" duration="365000" />
       <workItem from="1605060236704" duration="8303000" />
-      <workItem from="1605094818853" duration="3845000" />
+      <workItem from="1605094818853" duration="4121000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringCould整合">
+      <created>1605098925443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605098925444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60662000" />
+    <option name="totallyTimeSpent" value="60938000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -419,7 +351,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
